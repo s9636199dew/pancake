@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stge ('deploy'){
+        stage ('deploy'){
             environment{
                 awsfile=credentials('awsfile')
             }
